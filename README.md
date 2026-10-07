@@ -1,5 +1,3 @@
-<img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
-
 # DevPortfolio Extension
 
 This is the repo for my projects portfolio, built using the template provided at https://github.com/RyanFitzgerald/devportfolio by Ryan Fitzgerald
