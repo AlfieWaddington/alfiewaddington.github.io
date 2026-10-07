@@ -9,11 +9,11 @@ export const siteConfig = {
     github: "https://github.com/AlfieWaddington",
   },
   aboutMe:
-    "Wondering if I really need an aboutMe section in this page...",
-  skills: ["Javascript", "React", "Node.js", "Python", "C#", "C++"],
+    "I'm a graduate programmer looking for work. I've worked with various languages before - these projects showcase the things I've built with them.",
+  skills: ["C++", "C#", "Python", "Java", "PHP", "JavaScript","React","NodeJS","Unreal","WPF",".NET"],
   projects: [
     {
-      name: "Windows WPF Character sheet",
+      name: "WPF Character sheet",
       description:
         "A responsive character sheet for a tabletop roleplaying game (Call Of Cthulhu) created using Windows Presentation Format (WPF)",
       link: "https://github.com/AlfieWaddington/CthulhuCharacterSheet",
@@ -22,13 +22,13 @@ export const siteConfig = {
 	  altText: "A screenshot of a CallOfCthulhu character sheet",
     },
     {
-      name: "",
+      name: "Space Rocks 3D",
       description:
-        "",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["", ""],
-	  imagePath: "",
-	  altText: "",
+        "A simple 3D game built in Unreal Engine with C++.",
+      link: "https://github.com/AlfieWaddington/SpaceRocks3D_AW",
+      skills: ["C++", "Pointers", "Unreal Engine 5", ],
+	  imagePath: "/src/assets/SpaceRocks3D.png",
+	  altText: "A screenshot of a spaceship shooting at rocks in space",
     },
     {
       name: "Research Recruitment Prototype",
@@ -39,27 +39,32 @@ export const siteConfig = {
 	  imagePath: "/src/assets/ResearchRecruitment.png",
 	  altText: "Screenshot of a website layout designed for user engagement",
     },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+	{
+      name: "CaveRunner 2D",
+      description:
+        "A simple 2D game built using my university's in-house game engine 'Hornet'. Due to in-house engine and use on future university modules, repo is private.",
+      link: "https://github.com/AlfieWaddington/CaveRunner-Hornet",
+      skills: ["C++", "Pointers", "Defensive Programming", "Data Structures"],
+	  imagePath: "/src/assets/CaveRunner.png",
+	  altText: "Screenshot of a 2D cave-exploring game",
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+	{
+		name: "CHI API",
+		description:
+		"A RESTful API built to retrieve data from the CHI 2023 conference database. Due to use on future university modules, repo is private.",
+		link: "https://github.com/AlfieWaddington/CHI2023RESTfulAPI",
+		skills: ["PHP", "SQL", "REST"],
+		imagePath: "/src/assets/RESTfulAPI.png",
+		altText: "Screenshot of documentation for an API",
+	},
+	{
+		name: "Heart-Responsive Virtual Environment",
+		description:
+		"A digital environment built in Unreal Engine which responds to data from a heartrate monitor device (Developed as a University group project). Due to privacy of client developed for, repo is private.",
+		link: "https://github.com/DuckMeMz/ExpansionOfHeartRateSim",
+		skills: ["Unreal Engine 5", "TCP","Real-time Data"],
+		imagePath: "/src/assets/HeartResponsive.png",
+		altText: "Screenshot of a virtual island",
+	},
   ],
 };
